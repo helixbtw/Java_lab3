@@ -1,10 +1,4 @@
-import java.util.Scanner;
-
-public class Main {
-
-    public static void main(String[] args) {
-
-        /* ćw 1 enum-y */
+/* ćw 1 enum-y */
 
         /* zad.1
         a) Stworzyć prosty enum "LiczbyEnum" z liczbami od 1 do 6 zapisanymi słownie,
@@ -19,6 +13,13 @@ public class Main {
 
         /* statusy i wybór ze switch case to najczęstsze użycia enumów, enumy są często używane
          * w różnego rodzaju listach, selectach jako krótkie opcje wyboru np. jako status A, X (Aktualny, Usunięty) */
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
         Scanner scan=new Scanner(System.in);
         while(true)
         {
